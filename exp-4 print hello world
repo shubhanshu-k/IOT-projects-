@@ -1,0 +1,11 @@
+//AIM-  Write a program on Arduino to print Hello World .  
+
+//CODE: 
+
+void setup() {
+   Serial.begin(9600);
+}
+void loop() {
+   Serial.println("Hello World!");
+   delay(1000);
+}
